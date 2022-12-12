@@ -1,0 +1,29 @@
+li
+{
+  color: sienna;
+}
+#fruta
+{
+color: rgb(0, 83, 42);
+font-size: 20px;
+}
+h1
+{
+font-size: 40px;
+color: rgb(27, 162, 180);
+}
+#frutas
+{
+font-size: 35px;
+color: darkred;
+}
+#verduras
+{
+font-size: 35px ;
+color: rgba(0, 236, 106, 0.151);
+}
+#verdura
+{
+font-size: 20px;
+color: rgb(3, 105, 20);
+}

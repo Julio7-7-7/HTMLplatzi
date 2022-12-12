@@ -1,0 +1,60 @@
+*
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+main
+{
+width: 800px;
+height: 550px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+background-color: rgb(197, 85, 11);
+border-radius: 20px;
+box-shadow: 0px 0px 8px 2px #909090;
+}
+.box
+{
+background-color: rgba(175, 27, 27, 0.466);
+position: relative;
+bottom: 20px;
+width: 200px;  /*En un cuadro marca el ancho*/  
+height: 80px; /*En el mismo cuadro marca la altura*/
+border-radius: 10px; /*redondeado*/
+margin: auto;
+box-shadow: 0px 0px 8px 2px #351c03;
+}
+.box_h2
+{
+padding: 8px;
+text-align: center;
+}
+h2
+{
+font-family: 'Times New Roman', Times, serif;
+color: aliceblue;
+font-size: 30px;
+}
+.box_img
+{
+display: block;
+padding: auto;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50px;
+width: 250px;
+}
+.box_text
+{
+font-size: 14px;
+font-weight: 700;
+color: white;
+margin: auto;
+margin-top: 30px;  /*Distancia que tiene de arriba*/
+width: 600px;
+height: 50px;
+text-align: center;
+}

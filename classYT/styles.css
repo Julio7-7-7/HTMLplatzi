@@ -1,0 +1,156 @@
+#titulo
+{
+color: tomato;
+}
+p.especial
+{
+color: blueviolet;
+}
+p.texto
+{
+color: skyblue;
+}
+div p
+{
+color: rgb(14, 187, 132);
+}
+div h2, div h3
+{
+color: brown;
+}
+
+*
+{
+font-size: 24px;
+/* color: black; */
+}
+
+/* .color
+{
+color: #ff0000;
+} */
+/* .color
+{
+color: rgb(117, 44, 44);
+} */
+
+.color
+{
+/* border: 5px red inset; */
+/*
+dotted-dashed-solid-double-groove-ridge-inset-outset-none-hidden
+*/
+border-style: solid;
+border-color: rgb(0, 89, 255);
+border-radius: 5px;
+border-width: 1rem;   /*Grueso del borde*/
+}
+#fondo
+{
+border-color: rgba(225,0,0,);
+height: 200px;
+/*background-position: center top;
+Top-Center_botton*/
+background: red url(buscador.jpg) repeat-y center bottom / 300px 200px ;
+}
+.margen
+{
+background-color: chocolate;
+margin: 15px/*ariba*/ /*derecha*/ /*abajo*/ /*izquierda*/;
+padding: 30px 15px;
+border: solid black;
+height: 100px;
+width: 50px;
+overflow: hidden; /*hidden oculta contenido que no cabe, scroll coloca barra de navegacionpara subir bajar etc*/
+outline: 1px solid red;
+}
+.text
+{
+font-family: 'Palette Mosaic' , sans-serif;
+text-align: center;
+text-decoration: overline; /*none underline line-throught overline textshadow*/
+text-shadow: 3px 5px 5px blue;
+}
+a:link
+{
+color: blueviolet;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+ul{
+    background-color: aqua;
+    padding-left: 0;
+    list-style: none;
+    /* list-style-position: inside; */
+}
+table{
+    width: 100%;
+    border-collapse: collapse; /*Quita la separeacion entre las seldas de una tabla*/
+}
+th,td{
+    border: solid 1px black;
+    padding: 5px;
+}
+th{
+    background-color: tomato; /*El th son las cabeceras en una tabla*/
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even)/*Permite seleccionar elementos en particular dentro de la tabla*/{
+    background-color: gray;
+}
+tr:hover{
+    background-color: aquamarine;
+    cursor: pointer;  /*Pone el cursor de manito a la hora de acercarse a un link*/
+}
+span{
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    width: 300px;
+    background-color: brown;
+}
+.inline{
+    display: inline;
+}
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.right{
+    float: right;
+}
+.container{
+    height: 200px;
+}
+.column{
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: brown;
+}
+.center{
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
